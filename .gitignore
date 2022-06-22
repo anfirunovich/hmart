@@ -1,0 +1,5 @@
+.idea
+.DS_store
+
+Pipfile*
+db.sqlite3
