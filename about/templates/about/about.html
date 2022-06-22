@@ -1,0 +1,301 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+
+{% block content %}
+    <!-- offcanvas overlay start -->
+    <div class="offcanvas-overlay"></div>
+    <!-- offcanvas overlay end -->
+    <!-- OffCanvas Wishlist Start -->
+    <div id="offcanvas-wishlist" class="offcanvas offcanvas-wishlist">
+        <div class="inner">
+            <div class="head">
+                <span class="title">Wishlist</span>
+                <button class="offcanvas-close">×</button>
+            </div>
+            <div class="body customScroll">
+                <ul class="minicart-product-list">
+                    <li>
+                        <a href="../../../hmart_html/single-product.html" class="image"><img src="../../../hmart_html/assets/images/product-image/1.webp" alt="Cart product Image"></a>
+                        <div class="content">
+                            <a href="../../../hmart_html/single-product.html" class="title">Modern Smart Phone</a>
+                            <span class="quantity-price">1 x <span class="amount">$21.86</span></span>
+                            <a href="#" class="remove">×</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="../../../hmart_html/single-product.html" class="image"><img src="../../../hmart_html/assets/images/product-image/2.webp" alt="Cart product Image"></a>
+                        <div class="content">
+                            <a href="../../../hmart_html/single-product.html" class="title">Bluetooth Headphone</a>
+                            <span class="quantity-price">1 x <span class="amount">$13.28</span></span>
+                            <a href="#" class="remove">×</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="../../../hmart_html/single-product.html" class="image"><img src="../../../hmart_html/assets/images/product-image/3.webp" alt="Cart product Image"></a>
+                        <div class="content">
+                            <a href="../../../hmart_html/single-product.html" class="title">Smart Music Box</a>
+                            <span class="quantity-price">1 x <span class="amount">$17.34</span></span>
+                            <a href="#" class="remove">×</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="foot">
+                <div class="buttons">
+                    <a href="../../../hmart_html/wishlist.html" class="btn btn-dark btn-hover-primary mt-30px">view wishlist</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- OffCanvas Wishlist End -->
+    <!-- OffCanvas Cart Start -->
+    <div id="offcanvas-cart" class="offcanvas offcanvas-cart">
+        <div class="inner">
+            <div class="head">
+                <span class="title">Cart</span>
+                <button class="offcanvas-close">×</button>
+            </div>
+            <div class="body customScroll">
+                <ul class="minicart-product-list">
+                    <li>
+                        <a href="../../../hmart_html/single-product.html" class="image"><img src="../../../hmart_html/assets/images/product-image/1.webp" alt="Cart product Image"></a>
+                        <div class="content">
+                            <a href="../../../hmart_html/single-product.html" class="title">Modern Smart Phone</a>
+                            <span class="quantity-price">1 x <span class="amount">$18.86</span></span>
+                            <a href="#" class="remove">×</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="../../../hmart_html/single-product.html" class="image"><img src="../../../hmart_html/assets/images/product-image/2.webp" alt="Cart product Image"></a>
+                        <div class="content">
+                            <a href="../../../hmart_html/single-product.html" class="title">Bluetooth Headphone</a>
+                            <span class="quantity-price">1 x <span class="amount">$43.28</span></span>
+                            <a href="#" class="remove">×</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="../../../hmart_html/single-product.html" class="image"><img src="../../../hmart_html/assets/images/product-image/3.webp" alt="Cart product Image"></a>
+                        <div class="content">
+                            <a href="../../../hmart_html/single-product.html" class="title">Smart Music Box</a>
+                            <span class="quantity-price">1 x <span class="amount">$37.34</span></span>
+                            <a href="#" class="remove">×</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="foot">
+                <div class="buttons mt-30px">
+                    <a href="../../../hmart_html/cart.html" class="btn btn-dark btn-hover-primary mb-30px">view cart</a>
+                    <a href="../../../hmart_html/checkout.html" class="btn btn-outline-dark current-btn">checkout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- OffCanvas Cart End -->
+    <!-- OffCanvas Menu Start -->
+    <div id="offcanvas-mobile-menu" class="offcanvas offcanvas-mobile-menu">
+        <button class="offcanvas-close"></button>
+        <div class="user-panel">
+            <ul>
+                <li><a href="tel:0123456789"><i class="fa fa-phone"></i> +012 3456 789</a></li>
+                <li><a href="mailto:demo@example.com"><i class="fa fa-envelope-o"></i> demo@example.com</a></li>
+                <li><a href="../../../hmart_html/my-account.html"><i class="fa fa-user"></i> Account</a></li>
+            </ul>
+        </div>
+        <div class="inner customScroll">
+            <div class="offcanvas-menu mb-4">
+                <ul>
+                    <li><a href="#"><span class="menu-text">Home</span></a>
+                        <ul class="sub-menu">
+                            <li><a href="../../../home/templates/home/index.html"><span class="menu-text">Home 1</span></a></li>
+                            <li><a href="../../../hmart_html/index-2.html"><span class="menu-text">Home 2</span></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About</a></li>
+                    <li>
+                        <a href="#"><span class="menu-text">Pages</span></a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="#"><span class="menu-text">Inner Pages</span></a>
+                                <ul class="sub-menu">
+                                    <li><a href="../../../hmart_html/404.html">404 Page</a></li>
+                                    <li><a href="../../../hmart_html/order-tracking.html">Order Tracking</a></li>
+                                    <li><a href="../../../hmart_html/faq.html">Faq Page</a></li>
+                                    <li><a href="../../../hmart_html/coming-soon.html">Coming Soon Page</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><span class="menu-text"> Other Shop Pages</span></a>
+                                <ul class="sub-menu">
+                                    <li><a href="../../../hmart_html/cart.html">Cart Page</a></li>
+                                    <li><a href="../../../hmart_html/checkout.html">Checkout Page</a></li>
+                                    <li><a href="../../../hmart_html/compare.html">Compare Page</a></li>
+                                    <li><a href="../../../hmart_html/wishlist.html">Wishlist Page</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><span class="menu-text">Related Shop Page</span></a>
+                                <ul class="sub-menu">
+                                    <li><a href="../../../hmart_html/my-account.html">Account Page</a></li>
+                                    <li><a href="../../../hmart_html/login.html">Login & Register Page</a></li>
+                                    <li><a href="../../../hmart_html/empty-cart.html">Empty Cart Page</a></li>
+                                    <li><a href="../../../hmart_html/thank-you-page.html">Thank You Page</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><span class="menu-text">Shop</span></a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="#"><span class="menu-text">Shop Page</span></a>
+                                <ul class="sub-menu">
+                                    <li><a href="../../../hmart_html/shop-3-column.html">Shop 3 Column</a></li>
+                                    <li><a href="../../../hmart_html/shop-4-column.html">Shop 4 Column</a></li>
+                                    <li><a href="../../../hmart_html/shop-left-sidebar.html">Shop Left Sidebar</a></li>
+                                    <li><a href="../../../hmart_html/shop-right-sidebar.html">Shop Right Sidebar</a></li>
+                                    <li><a href="../../../hmart_html/shop-list-left-sidebar.html">Shop List Left Sidebar</a>
+                                    </li>
+                                    <li><a href="../../../hmart_html/shop-list-right-sidebar.html">Shop List Right Sidebar</a>
+                                    </li>
+                                    <li><a href="../../../hmart_html/cart.html">Cart Page</a></li>
+                                    <li><a href="../../../hmart_html/checkout.html">Checkout Page</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><span class="menu-text">product Details Page</span></a>
+                                <ul class="sub-menu">
+                                    <li><a href="../../../hmart_html/single-product.html">Product Single</a></li>
+                                    <li><a href="../../../hmart_html/single-product-variable.html">Product Variable</a></li>
+                                    <li><a href="../../../hmart_html/single-product-affiliate.html">Product Affiliate</a></li>
+                                    <li><a href="../../../hmart_html/single-product-group.html">Product Group</a></li>
+                                    <li><a href="../../../hmart_html/single-product-tabstyle-2.html">Product Tab 2</a></li>
+                                    <li><a href="../../../hmart_html/single-product-tabstyle-3.html">Product Tab 3</a></li>
+                                    <li><a href="../../../hmart_html/single-product-slider.html">Product Slider</a></li>
+                                    <li><a href="../../../hmart_html/single-product-gallery-left.html">Product Gallery Left</a>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><span class="menu-text">Single Product Page</span></a>
+                                <ul class="sub-menu">
+                                    <li><a href="../../../hmart_html/single-product-gallery-right.html">Product Gallery
+                                            Right</a> </li>
+                                    <li><a href="../../../hmart_html/single-product-sticky-left.html">Product Sticky Left</a>
+                                    </li>
+                                    <li><a href="../../../hmart_html/single-product-sticky-right.html">Product Sticky Right</a>
+                                    </li>
+                                    <li><a href="../../../hmart_html/compare.html">Compare Page</a></li>
+                                    <li><a href="../../../hmart_html/wishlist.html">Wishlist Page</a></li>
+                                    <li><a href="../../../hmart_html/my-account.html">Account Page</a></li>
+                                    <li><a href="../../../hmart_html/login.html">Login & Register Page</a></li>
+                                    <li><a href="../../../hmart_html/empty-cart.html">Empty Cart Page</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><span class="menu-text">Blog</span></a>
+                        <ul class="sub-menu">
+                            <li><a href="../../../hmart_html/blog-grid.html">Blog Grid Page</a></li>
+                            <li><a href="../../../hmart_html/blog-grid-left-sidebar.html">Grid Left Sidebar</a></li>
+                            <li><a href="../../../hmart_html/blog-grid-right-sidebar.html">Grid Right Sidebar</a></li>
+                            <li><a href="../../../hmart_html/blog-list.html">Blog List Page</a></li>
+                            <li><a href="../../../hmart_html/blog-list-left-sidebar.html">List Left Sidebar</a></li>
+                            <li><a href="../../../hmart_html/blog-list-right-sidebar.html">List Right Sidebar</a></li>
+                            <li><a href="../../../hmart_html/blog-single.html">Blog Single Page</a></li>
+                            <li><a href="../../../hmart_html/blog-single-left-sidebar.html">Single Left Sidebar</a></li>
+                            <li><a href="../../../hmart_html/blog-single-right-sidebar.html">Single Right Sidbar</a>
+                        </ul>
+                    </li>
+                    <li><a href="../../../hmart_html/contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <!-- OffCanvas Menu End -->
+            <div class="offcanvas-social mt-auto">
+                <ul>
+                    <li>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-google"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-youtube"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- OffCanvas Menu End -->
+    <!-- breadcrumb-area start -->
+    <div class="breadcrumb-area">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-12 text-center">
+                    <h2 class="breadcrumb-title">About Us</h2>
+                    <!-- breadcrumb-list start -->
+                    <ul class="breadcrumb-list">
+                        <li class="breadcrumb-item"><a href="{% static 'images/logo/logo.png' %}">Home</a></li>
+                        <li class="breadcrumb-item active">About Us</li>
+                    </ul>
+                    <!-- breadcrumb-list end -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- breadcrumb-area end -->
+    <!-- About section Start -->
+    <div class="about-area pt-100px">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="about-wrapper text-center">
+                        <div class="about-contant">
+                            <h2 class="title">
+                                <span>Smart Fashion </span>
+                                With Smart Devices
+                            </h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea comml consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in culpa</p>
+                        </div>
+                        <div class="promo-video">
+                            <img src="../../../hmart_html/assets/images/about/promo-video-img.webp" alt="">
+                            <a href="https://youtu.be/7rmQIzbgpoA" class="venobox overlay-box" data-vbtype="video"><span
+                                class="fa fa-play"><i class="ripple"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-blog-area pb-100px pt-100px">
+        <div class="container">
+            <!-- section title start -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title text-center mb-30px0px">
+                        <h2 class="title">Latest Blog</h2>
+                        <p> There are many variations of passages of Lorem Ipsum available</p>
+                    </div>
+                </div>
+            </div>
+            <!-- section title start -->
+
+                <!-- End single blog -->
+                <div class="col-lg-6 col-sm-6">
+                    <div class="single-blog">
+
+
+                    </div>
+                </div>
+                <!-- End single blog -->
+            </div>
+        </div>
+    </div>
+{% endblock %}

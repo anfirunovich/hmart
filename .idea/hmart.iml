@@ -5,4 +5,15 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
+  <component name="TemplatesService">
+    <option name="TEMPLATE_FOLDERS">
+      <list>
+        <option value="$MODULE_DIR$/home/templates" />
+        <option value="$MODULE_DIR$/about/templates" />
+        <option value="$MODULE_DIR$/templates" />
+        <option value="$MODULE_DIR$/cars/templates" />
+        <option value="$MODULE_DIR$/spare_parts/templates" />
+      </list>
+    </option>
+  </component>
 </module>
